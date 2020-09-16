@@ -14,3 +14,7 @@ install:
 	then chmod 755 $$p$$b;\
 	else chmod -x $$p$$b;\
 	fi
+
+clean:
+	rm -f lazymake
+	rm -f /usr/local/bin/lazymake
