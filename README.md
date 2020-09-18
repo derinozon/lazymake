@@ -14,7 +14,7 @@ $ make install
 Usage
 --------
 
-This program has two arguments :
+This program has two optional arguments :
 
 - `path`: Specify a path to compile
 - `version`: Choose compiler version
