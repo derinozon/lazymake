@@ -12,7 +12,7 @@ install:
 	cp $$a$$b $$p;\
 	if [ "$$(uname)" == "Darwin" ];\
 	then chmod 755 $$p$$b;\
-	else chmod -x $$p$$b;\
+	else chmod +x $$p$$b;\
 	fi
 
 clean:

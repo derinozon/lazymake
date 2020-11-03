@@ -1,3 +1,5 @@
+#include <cstring>
+
 #include "lazycompile.hpp"
 
 int main (int argc, char *argv[]) {
@@ -23,8 +25,6 @@ int main (int argc, char *argv[]) {
 
 	string exe = Compile(gFlags, objs, mkDir);
 	Run(exe);
-
-
 
 	return 0;
 }
