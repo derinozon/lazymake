@@ -12,6 +12,7 @@ $ make
 $ make install
 ```
 (You might need to use sudo in `make install` process)
+
 Usage
 --------
 
